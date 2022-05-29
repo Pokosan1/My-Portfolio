@@ -43,9 +43,11 @@ body {
     font-size: 45px;
     letter-spacing: .1em;
     padding-top: 50px;
-    margin: 15px;
+    /* margin: 15px; */
     opacity: 0;
     margin: 0;
+    padding-left: 18px;
+    padding-bottom: 20px;
 }
 
 #showcase h1 {
@@ -89,19 +91,19 @@ p {
 
 #showcase .button {
     font-size: 20px;
-    letter-spacing: .2em;
-    font-weight: bolder;
-    text-decoration: none;
+    letter-spacing: .3em;
+    text-decoration: underline;
     color: white;
     padding: 8px 20px;
     margin-top: 25px;
-    margin-left: 15px;
-
+    margin-left: 10px;
+  
 }
 
 .button:hover {
     font-style: italic;
 }
+
 
 @media screen and (min-width: 720px) {
 
