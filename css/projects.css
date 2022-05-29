@@ -127,8 +127,6 @@ p {
 
 .button:hover {
     font-style: italic;
-    color: rgb(252, 153, 170);
-    transition: 0.5s;
 }
 
 @media (min-width: 768px) {
