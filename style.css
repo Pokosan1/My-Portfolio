@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gabriela', serif;
+    font-weight: bolder;
+    overflow: hidden;
+
+    line-height: 1.3;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('/img/sunset.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 30px;
+    opacity: 5;
+}
+
+#showcase h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+    letter-spacing: 2px;
+    opacity: 0;
+}
+
+#showcase h2 {
+    font-size: 50px;
+    color: white;
+    margin-top: 5px;
+}
+
+#showcase p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 50px;
+    opacity: 0
+}
+
+.projects {
+    opacity: 0;
+}
+.contact {
+    opacity: 0;
+}
+
+.about {
+    opacity: 0;
+}
+
+
+#showcase h1 {
+    animation: ani2 0.75s ease-out .5s forwards;
+}
+
+#showcase p {
+    animation: ani2 0.75s ease-out .7s forwards;
+}
+
+.projects {
+    animation: ani2 0.75s ease-out 1.1s forwards;
+}
+
+.contact {
+    animation: ani2 0.75s ease-out 1.3s forwards;
+}
+
+.about {
+    animation: ani2 0.75s ease-out .9s forwards;
+}
+
+@keyframes ani2 {
+    100% {
+        opacity: 2;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    font-style: italic;
+    color: rgb(43, 42, 42);
+    transition: 0.7s;  
+}
+
+@media (min-width: 768px) {
+
+    #showcase h1 {
+        font-size: 20px;
+    }
+
+    #showcase h2 {
+        font-size: 60px;
+    }
+
+    #showcase p {
+        font-size: 18px;
+    }
+
+    #showcase {
+        margin-left: 25px; 
+    }
+}
+
+
+
+
