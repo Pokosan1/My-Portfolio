@@ -93,10 +93,11 @@ p {
 #treehouse {
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: .2em;
     line-height: 1.5em;
     font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
 }
 
 #treehouse:hover {
