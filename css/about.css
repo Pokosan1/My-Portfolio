@@ -25,6 +25,7 @@ body {
 
 
 .topnav a {
+    font-family: 'Work Sans', sans-serif;
     color: white;
     text-decoration: none;   
     font-size: 12px;
@@ -51,16 +52,16 @@ body {
 }
 
 #showcase h1 {
-    animation: ani2 0.75s ease-out .5s forwards;
+    animation: ani2 3s ease-out .7s forwards;
 }
 
-#showcase h2 {
+/* #showcase h2 {
     animation: ani2 0.75s ease-out .7s forwards;
 }
 
 #showcase p {
     animation: ani2 0.75s ease-out 1s forwards;
-}
+} */
 
 @keyframes ani2 {
     100% {
@@ -74,7 +75,7 @@ body {
     letter-spacing: .1em;
     line-height: 1.5em;
     margin: 15px;
-    opacity: 0;
+    /* opacity: 0; */
 
 }
 
@@ -85,18 +86,31 @@ p {
     letter-spacing: .1em;
     line-height: 1.5em;
     font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 0;
+    font-family: 'Work Sans', sans-serif;
+    /* opacity: 0; */
+}
+
+#treehouse {
+text-underline-offset: 3px;
+color: white;
+font-size: 15px;
+letter-spacing: .2em;
+line-height: 1.5em;
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
 }
 
 #showcase .button {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: .3em;
     text-decoration: none;
     color: white;
     padding: 8px 20px;
     margin-top: 25px;
-    margin-left: 10px;
+    /* margin-left: 8px; */
   
 }
 

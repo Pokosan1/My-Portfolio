@@ -19,15 +19,22 @@ body {
 .topnav a {
     color: white;
     text-decoration: none;   
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: .5em;
     cursor: pointer;
-    padding: 25px;    
+    padding: 25px; 
+    font-family: 'Work Sans', sans-serif;
+  
 }
 
 .topnav a:hover {
     font-style: italic;
-    font-weight: bolder;
+    font-weight: bold;
+}
+
+#contact {
+    padding-left: 0;
+    margin-left: 0;
 }
 
 #showcase h1 {
@@ -53,18 +60,18 @@ h2 {
 p {
     margin: 15px;
     padding-bottom: 15px;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: .1em;
     line-height: 1.5em;
     font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #showcase h1 {
-    animation: ani2 0.75s ease-out .5s forwards;
+    animation: ani2 3s ease-out .7s forwards;
 }
 
-.card-1 {
+/* .card-1 {
     animation: ani2 0.75s ease-out .7s forwards;
 }
 
@@ -86,7 +93,7 @@ p {
 
 .card-6 {
     animation: ani2 0.75s ease-out 1.8s forwards;
-}
+} */
 
 
 @keyframes ani2 {
@@ -105,7 +112,7 @@ p {
     width: 300px;
     height: auto;
     margin: 30px;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .pics {

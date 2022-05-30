@@ -34,6 +34,13 @@ body {
     letter-spacing: .5em;
     margin: 15px;
     cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+#about {
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .topnav a:hover {
@@ -58,9 +65,8 @@ p {
     padding-bottom: 10px;
     letter-spacing: .1em;
     line-height: 1.5em;
-    font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 0;
+    font-family: 'Work Sans', sans-serif;
+    /* opacity: 0; */
 }
 
 .p-last {
@@ -70,13 +76,14 @@ p {
 .email a {
     color: white;
     text-underline-offset: 5px;   
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     letter-spacing: .3em;
     margin-left: 15px;
     margin-top: 20px;
     cursor: pointer;
-    opacity: 0;
+    font-family: 'Work Sans', sans-serif;
+
+    /* opacity: 0; */
 }
 
 .email:hover {
@@ -85,16 +92,16 @@ p {
 }
 
 #showcase h1 {
-    animation: ani2 0.75s ease-out .5s forwards;
+    animation: ani2 3s ease-out .7s forwards;
 }
 
-#showcase p {
+/* #showcase p {
     animation: ani2 0.75s ease-out .7s forwards;
 }
 
 .email a {
     animation: ani2 0.75s ease-out 1s forwards;
-}
+} */
 
 @keyframes ani2 {
     100% {

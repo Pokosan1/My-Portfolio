@@ -21,12 +21,13 @@ body {
 }
 
 #showcase h1 {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    margin-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bolder;
     color: white;
-    letter-spacing: 2px;
-    opacity: 0;
+    letter-spacing: 2.5px;
+    /* opacity: 0; */
 }
 
 #showcase h2 {
@@ -36,12 +37,11 @@ body {
 }
 
 #showcase p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family: 'Work Sans', sans-serif;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     padding-bottom: 50px;
-    opacity: 0
+    /* opacity: 0 */
 }
 
 .projects {
@@ -56,24 +56,24 @@ body {
 }
 
 
-#showcase h1 {
+/* #showcase h1 {
     animation: ani2 0.75s ease-out .5s forwards;
 }
 
 #showcase p {
     animation: ani2 0.75s ease-out .7s forwards;
-}
+} */
 
 .projects {
-    animation: ani2 0.75s ease-out 1.1s forwards;
+    animation: ani2 2s ease-out 1s forwards;
 }
 
 .contact {
-    animation: ani2 0.75s ease-out 1.3s forwards;
+    animation: ani2 2s ease-out 1.3s forwards;
 }
 
 .about {
-    animation: ani2 0.75s ease-out .9s forwards;
+    animation: ani2 2s ease-out .7s forwards;
 }
 
 @keyframes ani2 {
