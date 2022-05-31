@@ -135,7 +135,6 @@ p {
     display: inline-block;
     background-color: transparent;
     font-size: 15px;
-    color: white;
     border: none;
     text-decoration: none;
     cursor: pointer;
@@ -190,6 +189,10 @@ p {
 }   
 
 @media (min-width: 1024px) {
+
+    #showcase {
+        width: 100vw;
+    }
 
     .pics {
         display: grid;
