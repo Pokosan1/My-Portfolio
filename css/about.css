@@ -15,6 +15,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column; /*aligns all the contents of the page */
     justify-content:flex-start; /*centers  all the text */
@@ -35,8 +36,9 @@ body {
 }
 
 .topnav a:hover {
-    font-style: italic;
-    font-weight: bolder;
+    /* font-style: italic;
+    font-weight: bolder; */
+    text-decoration: line-through;
 }
 
 #showcase h1 {
@@ -94,14 +96,13 @@ p {
     text-decoration: none;
     color: white;
     font-size: 14px;
-    letter-spacing: .2em;
-    line-height: 1.5em;
+    letter-spacing: .3em;
     font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
+
 }
 
 #treehouse:hover {
-    font-style: italic;
+    text-decoration: line-through;
 }
 
 
@@ -121,25 +122,69 @@ p {
 }
 
 
-@media screen and (min-width: 720px) {
+@media (min-width: 768px) {
 
     #showcase h1 {
         margin-top: 30px;
-        font-size: 65px;
+        font-size: 80px;
         margin-left: 30px;
     }
     #showcase h2 {
         font-size: 20px;
     }
 
+    #showcase p {
+        font-size: 16px;
+    }
+
     #showcase .button {
-        font-size: 18px;
-        padding: 10px 20px;
+        font-size: 22px;
+        padding: 10px 45px;
     }
 
     .wrapper {
         width: 50%;
         margin-left: 25px;
-    } 
-  
+    }
+    
+    .topnav a {
+        margin-left: 35px;
+    }
 }
+
+ @media (min-width: 1024px) {
+
+    #showcase h1 {
+        margin-top: 50px;
+        font-size: 70px;
+        margin-bottom: 10px;
+        }
+    
+        #showcase h2 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+    
+        #showcase p {
+            font-size: 16px;
+            padding-bottom: 0;
+        }
+
+        .topnav a {
+            margin-left: 40px;
+        }
+
+        .wrapper {
+            width: 55%;
+            margin-left: 25px;
+        }
+
+        #showcase .button {
+            font-size: 22px;
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+
+    } 
+
+

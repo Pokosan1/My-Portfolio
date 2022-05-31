@@ -95,11 +95,32 @@ a:hover {
 @media (min-width: 768px) {
 
     #showcase h1 {
-        font-size: 20px;
+        margin-top: 110px;
+        font-size: 22px;
     }
 
     #showcase h2 {
-        font-size: 60px;
+        font-size: 85px;
+    }
+
+    #showcase p {
+        font-size: 16px;
+    }
+
+    #showcase {
+        margin-left: 23px; 
+    }
+}
+
+@media (min-width: 1024px) {
+
+    #showcase h1 {
+        margin-top: 30px;
+        font-size: 23px;
+    }
+
+    #showcase h2 {
+        font-size: 70px;
     }
 
     #showcase p {
@@ -107,7 +128,7 @@ a:hover {
     }
 
     #showcase {
-        margin-left: 25px; 
+        margin-left: 55px; 
     }
 }
 
