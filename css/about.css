@@ -124,8 +124,6 @@ p {
 
 @media (min-width: 768px) {
 
-
-
     #showcase h1 {
         margin-top: 30px;
         font-size: 80px;
@@ -152,6 +150,7 @@ p {
     .topnav a {
         margin-left: 35px;
     }
+
 }
 
  @media (min-width: 1024px) {

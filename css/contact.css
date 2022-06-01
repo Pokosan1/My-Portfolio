@@ -58,7 +58,7 @@ body {
 p {
     font-size: 14px;
     margin-left: 15px;
-    margin-right: 100px;
+    margin-right: 60px;
     padding-bottom: 10px;
     letter-spacing: .1em;
     line-height: 1.5em;
@@ -73,31 +73,21 @@ p {
 .email a {
     color: white;
     text-underline-offset: 5px;   
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: .3em;
     margin-left: 15px;
     margin-top: 20px;
     cursor: pointer;
     font-family: 'Work Sans', sans-serif;
-
-    /* opacity: 0; */
 }
 
-.email:hover {
+/* .email:hover {
     font-weight: bold;
-}
+} */
 
 #showcase h1 {
     animation: ani2 3s ease-out .7s forwards;
 }
-
-/* #showcase p {
-    animation: ani2 0.75s ease-out .7s forwards;
-}
-
-.email a {
-    animation: ani2 0.75s ease-out 1s forwards;
-} */
 
 @keyframes ani2 {
     100% {
