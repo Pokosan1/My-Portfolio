@@ -83,6 +83,10 @@ p {
 
 @media screen and (orientation: landscape) {
 
+    body {
+        overflow: scroll;
+    }
+
 
     #showcase h1 {
         font-size: 40px;
