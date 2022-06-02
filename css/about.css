@@ -132,6 +132,8 @@ p {
 
     body {
         overflow-y: scroll;
+        padding: env(safe-area-inset-bottom)
+
     }
 
     #showcase h1 {
