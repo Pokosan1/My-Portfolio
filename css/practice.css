@@ -100,7 +100,7 @@ h2 {
     background-color: white;
     color: black;
     width: 65px;
-    margin: 10px;
+    margin: 20px;
 
 }
 
@@ -146,6 +146,8 @@ h2 {
         background-color: white;
         color: black;
         width: 65px;
+        margin: 30px;
+
     }
 
     .topnav {
