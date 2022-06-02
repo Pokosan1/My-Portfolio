@@ -6,16 +6,16 @@
 
 body {
 
-        margin: 20px;
-        padding: 10px;
-        font-family: 'Gabriela', serif;
-        line-height: 1.3;
-        color: white;
-        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url('/My-Portfolio/img/bokeh.jpg');
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Gabriela', serif;
+    line-height: 1.3;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url('/My-Portfolio/img/bokeh.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
 .topnav a {
@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
     margin-bottom: 45px;
     border-radius: 5px;
