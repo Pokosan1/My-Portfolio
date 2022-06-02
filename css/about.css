@@ -5,7 +5,6 @@
 
 body {
     font-family: 'Gabriela', serif;
-    /* font-weight: bolder; */
     overflow: hidden;
     line-height: 1.3;
     color: white;
@@ -132,8 +131,6 @@ p {
 
     body {
         overflow-y: scroll;
-        padding: env(safe-area-inset-bottom)
-
     }
 
     #showcase h1 {
