@@ -104,6 +104,12 @@ h2 {
 
 }
 
+@media screen and (orientation: landscape) { 
+    .button {
+        margin: 45px;
+    }
+}
+
 
 @media (min-width: 768px) {
 
