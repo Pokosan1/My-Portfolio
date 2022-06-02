@@ -85,6 +85,7 @@ a:hover {
     
     body {
         padding-top: 10px;
+        overflow-y: scroll;
     }
 
     #showcase h1 {
