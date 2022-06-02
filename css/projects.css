@@ -70,31 +70,6 @@ p {
     animation: ani2 3s ease-out .7s forwards;
 }
 
-/* .card-1 {
-    animation: ani2 0.75s ease-out .7s forwards;
-}
-
-.card-2 {
-    animation: ani2 0.75s ease-out .9s forwards;
-}
-
-.card-3 {
-    animation: ani2 0.75s ease-out 1.2s forwards;
-}
-
-.card-4 {
-    animation: ani2 0.75s ease-out 1.4s forwards;
-}
-
-.card-5 {
-    animation: ani2 0.75s ease-out 1.6s forwards;
-}
-
-.card-6 {
-    animation: ani2 0.75s ease-out 1.8s forwards;
-} */
-
-
 @keyframes ani2 {
     100% {
         opacity: 2;

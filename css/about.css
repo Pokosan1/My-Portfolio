@@ -3,29 +3,42 @@
     padding: 0;
 } 
 
+body {
+    font-family: 'Gabriela', serif;
+    /* font-weight: bolder; */
+    overflow: hidden;
+    line-height: 1.3;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('/My-Portfolio/img/bokeh.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 20px;
+    opacity: 5;
+}
 
 
+/* 
 body {
     line-height: 1.3;
     color: white;
     overflow: hidden;
     position: absolute;
-}
+} */
 
-#showcase {
+/* #showcase {
     background-image: url('/My-Portfolio/img/bokeh.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
-    /* width: 100vw; */
     display: flex;
-    flex-direction: column; /*aligns all the contents of the page */
-    justify-content:flex-start; /*centers  all the text */
+    flex-direction: column; aligns all the contents of the page 
+    justify-content:flex-start; centers  all the text 
     align-items:flex-start;
     text-align: left;
     padding: 20px 20px;
-    /* overflow: hidden; */
-}
+} */
 
 
 .topnav a {
@@ -49,7 +62,6 @@ body {
     font-size: 45px;
     letter-spacing: .1em;
     padding-top: 50px;
-    /* margin: 15px; */
     opacity: 0;
     margin: 0;
     padding-left: 18px;
@@ -59,14 +71,6 @@ body {
 #showcase h1 {
     animation: ani2 3s ease-out .7s forwards;
 }
-
-/* #showcase h2 {
-    animation: ani2 0.75s ease-out .7s forwards;
-}
-
-#showcase p {
-    animation: ani2 0.75s ease-out 1s forwards;
-} */
 
 @keyframes ani2 {
     100% {
@@ -124,6 +128,27 @@ p {
     font-style: italic;
 }
 
+@media screen and (orientation: landscape) {
+
+    body {
+        overflow-y: scroll;
+    }
+
+    #showcase h1 {
+        font-size: 40px;
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+
+    #showcase h2 {
+        font-size: 18px;
+    }
+
+    #showcase p {
+        font-size: 15px;
+    }
+}
+
 
 @media (min-width: 768px) {
 
@@ -176,7 +201,7 @@ p {
     
         #showcase p {
             font-size: 16px;
-            padding-bottom: 0;
+            padding-bottom: 20px;
         }
 
         .topnav a {
