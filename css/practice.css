@@ -83,8 +83,9 @@ h2 {
     margin-bottom: 25px;
 }
 
-#button {
+.button-id {
     margin-top: auto;
+    display: flex;
 }
 
 .button {
