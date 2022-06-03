@@ -75,8 +75,10 @@ h1 {
 p {
     margin-bottom: 15px;
     font-family: 'Work Sans', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: .1em;
+    line-height: 1.5em;
+    font-weight: lighter;
 }
 
 h2 {

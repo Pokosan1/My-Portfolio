@@ -60,6 +60,7 @@ body {
     letter-spacing: .1em;
     line-height: 1.5em;
     margin: 15px;
+    font-weight: lighter;
     /* opacity: 0; */
 
 }
@@ -72,7 +73,6 @@ p {
     line-height: 1.5em;
     font-weight: lighter;
     font-family: 'Work Sans', sans-serif;
-    /* opacity: 0; */
 }
 
 #treehouse {
