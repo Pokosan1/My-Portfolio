@@ -5,7 +5,6 @@
 }
 
 body {
-
     margin: 20px;
     padding: 10px;
     font-family: 'Gabriela', serif;
@@ -31,6 +30,13 @@ body {
 
 .topnav a:hover {
     text-decoration: line-through;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(240px, 400px);
+    justify-content: center;
+    grid-gap: 3em;
 }
 
 .card {
@@ -118,7 +124,9 @@ h2 {
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat( 2, minmax(250px, 380px)); 
+
+        /* grid-template-columns: 1fr 1fr; */
         grid-gap: 2em;
         margin: 20px
     }
@@ -185,7 +193,9 @@ h2 {
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, minmax(300px, 380px)); 
+
+        /* grid-template-columns: 1fr 1fr 1fr; */
         grid-gap: 2em;
     }
 
