@@ -170,18 +170,18 @@ h2 {
     }
 
     h2 {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     p {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1.5em;
     }
 
     .wrapper {
         display: grid;
         grid-template-columns: repeat(3, minmax(320px, 350px)); 
-        grid-column-gap: 2em;
+        grid-gap: 3em;
     }
 
     .button {
@@ -191,6 +191,7 @@ h2 {
 
     .card {
         margin-bottom: 5px;
+        padding: 14px;
     }
 }
 
