@@ -12,7 +12,7 @@ body {
     color: white;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('/My-Portfolio/img/sunset.jpg');
     height: 100vh;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 30px;
@@ -109,8 +109,9 @@ a:hover {
     }
 }
 
-
-
+/* ---------------------------------
+ **********MEDIA QUERIES********** 
+---------------------------------- */
 
 @media (min-width: 768px) {
 

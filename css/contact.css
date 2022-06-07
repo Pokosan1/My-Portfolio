@@ -26,11 +26,6 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-#about {
-    padding-left: 0;
-    margin-left: 0;
-}
-
 .topnav a:hover {
     text-decoration: line-through;
 }
@@ -54,7 +49,6 @@ p {
     letter-spacing: .1em;
     line-height: 1.5em;
     font-family: 'Work Sans', sans-serif;
-    /* opacity: 0; */
 }
 
 .p-last {
@@ -82,12 +76,11 @@ p {
     }
 }
 
+/* ---------------------------------
+ **********MEDIA QUERIES********** 
+---------------------------------- */
+
 @media screen and (orientation: landscape) {
-
-    body {
-        overflow: scroll;
-    }
-
 
     #showcase h1 {
         font-size: 40px;
@@ -111,11 +104,11 @@ p {
         margin-top: 60px;
         font-size: 70px;
         margin-left: 30px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
 
     }
     #showcase p {
-        font-size: 28px;
+        font-size: 15px;
         margin-right: 200px;
         padding-right: 100px;
         margin-left: 30px;
@@ -127,7 +120,7 @@ p {
     }
 
     .email a {
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 30px; 
     }
 
@@ -138,6 +131,10 @@ p {
 
 @media (min-width: 1024px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     #showcase {
         width: 100vw;
     }
@@ -147,33 +144,28 @@ p {
         font-size: 70px;
         }
 
-        #showcase p {
-            font-size: 18px;
-            margin-right: 200px;
-            padding-right: 100px;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: .3em;
-        }
-    
-        .email a {
-            font-size: 15px;
-            margin-left: 30px; 
-        }    
+    #showcase p {
+        font-size: 18px;
+        margin-right: 200px;
+        padding-right: 100px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: .3em;
+    }
 
-        .sidebar {
-            height: 100%;
-            width: 100px;
-            position: absolute;
-            left: 0;
-            top: 0;
-            padding-top: 40px;
-            
-            
-            }
-            
-            
-            
+    .email a {
+        font-size: 15px;
+        margin-left: 30px; 
+    }    
+
+    .sidebar {
+        height: 100%;
+        width: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-top: 40px;
+        }            
 }
 
 
