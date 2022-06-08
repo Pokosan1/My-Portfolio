@@ -55,17 +55,19 @@ body {
     opacity: 0;
 }
 
-.projects {
-    animation: ani2 2s ease-out 1s forwards;
-}
-
-.contact {
-    animation: ani2 2s ease-out 1.3s forwards;
-}
-
 .about {
     animation: ani2 2s ease-out .7s forwards;
 }
+
+.projects {
+    animation: ani2 2s ease-out 1.3s forwards;
+}
+
+.contact {
+    animation: ani2 2s ease-out 1.9s forwards;
+}
+
+
 
 @keyframes ani2 {
     100% {
