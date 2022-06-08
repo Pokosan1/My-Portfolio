@@ -229,7 +229,11 @@ h2 {
 
    body {
        height: 100vh;
-   }
+       background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url('/My-Portfolio/img/bokeh.jpg');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
 
     h1 {
         margin-top: 10px;
@@ -266,6 +270,7 @@ h2 {
     }
 
     .onClickTextOverImage {
+        background-color: rgba(0, 0, 0, 0.8);
         position: relative;
         cursor: pointer;
     }
