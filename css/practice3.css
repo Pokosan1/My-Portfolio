@@ -217,8 +217,6 @@ p {
     
 @media (min-width: 1024px) {
 
-  
-
     .hideBtn,
     .close {
         display: block;
@@ -243,7 +241,6 @@ p {
         cursor: pointer;
         font-family: 'Gabriela', serif;
         font-size: 20px;
-
     }
 
     .desktopOnly {
@@ -292,6 +289,10 @@ p {
         color: black;
     }
 
+    .modal-content p {
+        font-size: 15px;
+    }
+
     .close {
         font-size: 24px;
         position: absolute;
@@ -314,15 +315,16 @@ p {
     }
 
     .button {
-        margin: 30px;
-        width: 60px;
-        padding: 10px 20px; 
+        width: 65px;
+        padding: 8px 15px; 
+        border-radius: 10px;
         text-align: center;
         border-radius: 10px;
         border: none;
         cursor: pointer;
         background-color: black;
         color: white;
+        font-size: 14px;
     }
 
 }
